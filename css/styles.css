@@ -1,0 +1,27 @@
+:root {
+  --main-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --accent-color: #4d5ae5;
+  --hero-bg: #2e2f42;
+  --team-bg: #f4f4fd;
+
+  --fs-base: 16px;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-text-color);
+  background-color: #fff;
+  line-height: 1.5;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.team-name:hover,
+.team-name:focus {
+  color: var(--accent-color);
+}
